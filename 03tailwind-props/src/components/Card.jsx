@@ -1,11 +1,11 @@
 import React from 'react'
 
-export const Card = ({username, titleText = "newuser"}) => {
-    console.log(username);
-    
+export const Card = ({ username, titleText = "newuser" }) => {
+  console.log(username);
+
   return (
     <>
-    <div className="max-w-xs p-6 rounded-md shadow-md bg-black mb-4 ">
+      <div className="max-w-xs p-6 rounded-md shadow-md bg-black mb-4 ">
         <img
           src="https://img.freepik.com/premium-vector/boy-work-computers_987671-48.jpg?ga=GA1.1.1112069771.1729593368&semt=ais_hybrid"
           alt=""

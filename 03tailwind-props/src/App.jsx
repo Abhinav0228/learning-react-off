@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { Card } from './components/Card'
+import { Info } from './components/Info'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
         <Card username = "manuu" titleText = "User2"/>
         <Card username = "React"/>
       </div>
+      <Info aboutInfo = "about us the about of the company of which about the company is about" />
+
     </>
   )
 }
